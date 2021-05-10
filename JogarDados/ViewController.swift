@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         
     
     }
+    @IBAction func rolarDadosPressed(_ sender: UIButton) {
+    }
     
 
 
