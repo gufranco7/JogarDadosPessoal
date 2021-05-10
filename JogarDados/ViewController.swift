@@ -13,20 +13,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dadoImageView1.image = #imageLiteral(resourceName: "DiceFour")
+        
                 
         //Dot notation
         //Who.What = Value
-        
-        dadoImageView1.alpha = 0.5
-        
         
     
     }
     @IBAction func rolarDadosPressed(_ sender: UIButton) {
         print("Botao Rolar dados Pressionado!!!!")
     
-    // Fazer com que quando pressiaone o botao rolar dados os dois dados estejam no numero 4
+       
+        
+        dadoImageView1.image = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")][6]
+        
         dadoImageView2.image = #imageLiteral(resourceName: "DiceFour")
 
     }
